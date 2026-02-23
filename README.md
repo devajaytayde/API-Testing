@@ -9,19 +9,19 @@ It is an idempotent method which has an operation that can be performed multiple
 
 **POST** - Create new resource, data 
 
-**PUT**
+**PUT** - Update a resource, if no match found it will replace with null values
 
 **DELETE** - Delete a resource providing an ID as a part of the URL parameter
 
-**PATCH**
+**PATCH** - Update a part of resource 
 
-**HEAD**
+**HEAD** -  Fetch the request headers, same bandwidth as only retrieve some metadata, Content-Length of the resource, Content-Type, Last-Modified date etc.
 
-**TRACE**
+**TRACE** - Used for debugging purposes what exactly happening with HTTP requests. Web server echo the exact content of an HTTP request back to the client
 
-**CONNECT**
+**CONNECT** - To establish a network connection between a client and a server to create a secure tunnel
 
-**OPTIONS**
+**OPTIONS** - Server include the list of the allowed HTTP methods for the target resource as part of the "Allow" header in the response.
 
 
 
