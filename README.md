@@ -4,13 +4,14 @@ A REST (Representational State Transfer) API is an architectural style for an AP
 
 **HTTP Methods**
 
-**GET**
+**GET** - Get like list of items, a single item, or even just a status message.
+It is an idempotent method which has an operation that can be performed multiple times without changing the result beyond the initial application.
 
-**POST**
+**POST** - Create new resource, data 
 
 **PUT**
 
-**DELETE**
+**DELETE** - Delete a resource providing an ID as a part of the URL parameter
 
 **PATCH**
 
